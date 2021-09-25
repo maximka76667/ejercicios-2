@@ -17,6 +17,7 @@ public class Main {
 		double k = 1;
 		boolean is_valid_letra = true;
 
+		// While input != h or m
 		do {
 			System.out.println("Hombres o mujeres (H/M)");
 			k_char = Character.toLowerCase(entrada.next().charAt(0));
@@ -36,7 +37,6 @@ public class Main {
 		double pero = altura - 100 + (edad * 9 / 10);
 		double broc = altura - 100;
 		double MLIC = 50 + 0.75 * (altura - 150);
-		
 		
 		System.out.println("Altura: " + altura);
 		System.out.println("Edad: " + edad);
