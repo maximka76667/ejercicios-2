@@ -14,12 +14,11 @@ public class Main {
 		int edad = entrada.nextInt();
 
 		char k_char = '\0';
-
 		double k = 1;
 		boolean is_valid_letra = true;
 
 		do {
-			System.out.println("Homres o mujeres (H/M)");
+			System.out.println("Hombres o mujeres (H/M)");
 			k_char = Character.toLowerCase(entrada.next().charAt(0));
 			if(k_char == 'h') {
 				k = 4;
@@ -39,9 +38,11 @@ public class Main {
 		double MLIC = 50 + 0.75 * (altura - 150);
 		
 		
-		System.out.println("A: " + altura);
-		System.out.println("E: " + edad);
+		System.out.println("Altura: " + altura);
+		System.out.println("Edad: " + edad);
 		System.out.println("k: " + k);
+		
+		System.out.println("");
 		
 		System.out.println("Lorenzt: " + loren);
 		System.out.println("Perroult: " + pero);
