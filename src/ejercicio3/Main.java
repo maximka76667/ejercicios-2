@@ -49,8 +49,6 @@ public class Main {
 		System.out.println("Brocca: " + broc);
 		System.out.println("MLIC: " + MLIC);
 
-
-
 		entrada.close();
 	}
 
